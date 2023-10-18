@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Tooltip Example</h1>
-      <Tooltip position='top'>
+      <Tooltip position='right'>
         Press
       </Tooltip>
     </div>

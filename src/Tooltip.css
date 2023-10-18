@@ -1,0 +1,71 @@
+.press {
+    width : 100px;
+    height : 100px;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:100px;
+    left : 550px;
+  }
+
+.top {
+    width : 75px;
+    height : 75px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-80px;
+    left : 565px;
+}
+
+.bottom {
+    width : 75px;
+    height : 75px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:120px;
+    left : 565px;
+}
+
+.left {
+    width : 75px;
+    height : 75px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:20px;
+    left : 450px;
+}
+
+.right{
+
+    width : 75px;
+    height : 75px;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:20px;
+    left : 670px;
+
+}

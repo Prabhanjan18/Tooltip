@@ -5,7 +5,7 @@ function Tooltip({position, children}) {
     const[Tooltip,setTooltip] = useState(false);
 
     function handleClick(){
-        setTooltip(true)
+        setTooltip(!Tooltip)
     }
 
     function getTooltipPosition(){
@@ -22,9 +22,10 @@ function Tooltip({position, children}) {
                 return 'top'     
         }
     }
+    console.log(getTooltipPosition())
  return(
     <div>
-        <div className="press"onClick={handleClick}>
+        <div className="press" onClick={handleClick}>
             {children}
         </div>
         {Tooltip && (
